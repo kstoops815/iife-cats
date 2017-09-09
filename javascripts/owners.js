@@ -1,1 +1,4 @@
-console.log("owners");
+// var CatStore = ((oldCatStore) => {
+
+// 	return oldCatStore;
+// })(CatStore || {});
