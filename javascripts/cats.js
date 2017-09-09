@@ -1,4 +1,13 @@
-// var CatStore = ((oldCatStore) => {
+var CatStore = ((oldCatStore) => {
+	let cats =[];
 
-// 	return oldCatStore;
-// })(CatStore || {});
+	oldCatStore.getCats = () => {
+		return cats;
+	};
+
+	oldCatStore.setAllCats = (allMyCats) => {
+		cats = allMyCats;
+	};
+
+	return oldCatStore;
+})(CatStore || {});
