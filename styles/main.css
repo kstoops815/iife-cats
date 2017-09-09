@@ -1,3 +1,7 @@
+body {
+  background-color: lightblue;
+}
+
 .catBox{
     border: solid black 2px;
   display: inline-block;
